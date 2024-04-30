@@ -8,7 +8,7 @@ const Navbar = () => {
     <>
       <nav className="navbar navbar-expand-lg bg-dark">
         <div className="container-fluid px-5">
-          <a className="navbar-brand" href="#">
+          <a className="navbar-brand" href="/home">
             <img src={logo} width={125} height={75} alt="Netflix" />
           </a>
           <button
@@ -28,33 +28,33 @@ const Navbar = () => {
                 <a
                   className="nav-link active text-white"
                   aria-current="page"
-                  href="#"
+                  href="/home"
                 >
                   Home
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link text-white" href="#">
+                <a className="nav-link text-white" href="/tv-shows">
                   TV Shows
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link text-white" href="#">
+                <a className="nav-link text-white" href="/movies">
                   Movies
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link text-white" href="#">
+                <a className="nav-link text-white" href="/new-popular">
                   New & Popular
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link text-white" href="#">
+                <a className="nav-link text-white" href="/my-list">
                   My List
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link text-white" href="#">
+                <a className="nav-link text-white" href="/browse-language">
                   Browse By Languages
                 </a>
               </li>
